@@ -101,10 +101,12 @@
     margin: 0;  
 }
 
+
 .sobremi__img__padding{
     background-color: #e8e8e8;
     padding-left: 37%;
 }
+
 .area__logo{
     grid-area: header;
 }
@@ -221,6 +223,7 @@
     src: local();
     font-size: 60px;
     list-style: none;
+    padding-left: 10px;
 }
 .portfolio__h{
     font-family: 'poppinsextralight', sans-serif;
@@ -240,7 +243,7 @@
     font-size: 25px;
     padding-top: 50px;
     line-height: 150%;
-    text-indent: 5%;
+    text-indent: 3%;
 }
 .contacto__layout{
     display: grid;
@@ -314,9 +317,9 @@
 /* VISTA EN TELEFONO CELULAR */
 @media (max-width: 576px){
     .header__logosize{
-        width: 40%;
+        width: 70%;
         height: auto;
-        padding-left: 30%;   
+        padding-left: 35%;   
     }
     .header__logo{
         background-color: #e8e8e8;
@@ -356,6 +359,14 @@
         width: 100%;
         padding-bottom: 70%;    
     }
+    .home__title{
+        font-size: 50px;
+        padding-left: 30%;
+    }
+    .home__text{
+        font-size: 20px;
+        padding-left: 10%;
+    }
     .sobremi__layout{
         display: grid;
         grid-template-rows: 2fr 1fr 16fr 16fr 2fr; 
@@ -369,7 +380,25 @@
         grid-row-gap: 0px;
         grid-column-gap: 0px;
         height: 100vh;
-        margin: 0;  
+        margin: 0;     
+    }
+    .sobremi__text{
+        font-family: 'poppinsextralight', sans-serif;
+        src: local();
+        font-size: 15px;
+        text-indent: 10%;
+        text-align: justify;
+    }
+    .sobremi__img__padding{
+        width: 100%;
+        background-color: #e8e8e8;
+        padding-left: 0%;
+    }
+    .div.card{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
     }
     .servicios__layout{
         display: grid;
